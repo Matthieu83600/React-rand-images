@@ -1,4 +1,4 @@
-# React advanced concepts
+# React rand images
 
 ## Getting started
 
