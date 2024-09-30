@@ -4,13 +4,13 @@ import './ImageList.css';
 export function ImageList({ imgList }) {
     return (
         <div>
-            {imgList.map(img => {
+            {imgList.map((img, index) => {
                 return (
-                    <div key={img.id} className='card_item'>
+                    <div key={index} className='card_item'>
                         <ImageListItem img={img} />
                     </div>
                 )
             })}
         </div>
     )
-}
+};
